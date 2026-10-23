@@ -17,6 +17,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | PIN de acceso al calendario
+    |--------------------------------------------------------------------------
+    |
+    | PIN único y compartido que permite a los usuarios ver el calendario y el
+    | cronograma sin iniciar sesión. Se valida en el middleware "pin".
+    |
+    */
+
+    'calendar_pin' => env('CALENDAR_PIN'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
